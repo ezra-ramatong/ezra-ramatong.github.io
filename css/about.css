@@ -1,4 +1,6 @@
-.about-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+/* @media screen and (min-width: 53em) {
+  .about-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+} */
