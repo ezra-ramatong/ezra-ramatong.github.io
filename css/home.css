@@ -1,0 +1,30 @@
+main {
+  margin-top: 6rem;
+  max-width: var(--global-max-width);
+  margin-inline: auto;
+}
+
+
+.home__about-title {
+  font-size: 4rem;
+  margin: 0;
+}
+
+
+/* Media Queries*/
+
+@media screen and (min-width: 53em) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem;
+  }
+
+  .fixed {
+    position: fixed;
+  }
+
+  /* .projects {
+    margin-top: 0;
+  } */
+}

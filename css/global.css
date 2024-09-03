@@ -1,0 +1,11 @@
+/* Imports */
+@import url('variables.css');
+@import url('shared.css');
+@import url('utilities.css');
+
+
+/* Home page */
+@import url('home.css');
+
+/* Projects page */
+@import url('projects.css');

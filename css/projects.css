@@ -1,0 +1,40 @@
+.projects-main {
+  display: block;
+  margin-inline: auto;
+  margin-top: 6rem;
+}
+
+.projects {
+  margin-top: 4rem;
+}
+
+.card {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.card:first-child {
+  margin-top: 0;
+}
+
+.card__image-container {
+  aspect-ratio: 3/1;
+  overflow: hidden;
+  margin: 0;
+}
+
+.card__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 53em) {
+  .projects-main {
+    max-width: 1080px;
+  }
+
+  .projects {
+    margin-top: 0;
+  }
+
+}
