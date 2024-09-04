@@ -1,5 +1,31 @@
 :root {
+  /* Colors  */
+  --color-lavender: #c6c3f2;
+  --color-obsidian: #262628;
+  --color-cream: #fff6ef;
+  --color-lime: #d6dc82;
+  --color-cherry: #d86072;
+  --color-midnight: #013d5a;
+  --color-lionsmane: #fcf3e3;
+  --color-celeste: #bdd3ce;
+  --color-herb: #718c69;
+  --color-marigold: #f4a258;
+
+  /* Typography */
+  --ff-main: "GeneralSans-Variable";
+  --fw-bold: 700;
+  --fw-semibold: 500;
+  --fw-reg: 400;
+
+  /*Layout*/
   --body-horizontal-padding-sm: 1rem;
   --body-horizontal-padding-lg: 2.4rem;
   --global-max-width: 1440px;
+
+}
+
+.zeyada-regular {
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
