@@ -11,6 +11,7 @@
 
 .projects {
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .card {
@@ -23,6 +24,18 @@
   border-radius: var(--global-border-radius);
   padding: 1.2rem;
   gap: 1.5rem;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 20px;
+  box-shadow: -2px 15px 6px 0px rgba(0, 0, 0, 0.03);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.home-cards {
+  background: var(--color-lavender);
+  color: var(--color-obsidian);
 }
 
 .card:first-child {
@@ -48,14 +61,49 @@
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
+  flex-wrap: wrap;
+  gap: 0.3rem;
 }
 
 .card__info-title {
   margin-top: 0;
 }
 
+.card__info-title a:hover {
+  color: var(--color-cherry);
+}
+
+.card__info-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .card__info-description {
   margin-top: 0;
+  cursor: default;
+}
+
+.card__links {
+  display: flex;
+  gap: 1rem;
+}
+
+.card__links a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.8333rem;
+}
+
+@media screen and (min-width: 568px) {
+  .card__links a {
+    font-size: 1rem;
+  }
+}
+
+.card__links span {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 
 @media screen and (min-width: 53em) {
@@ -68,7 +116,7 @@
   }
 
   .homepage-projects {
-    margin-top: -3rem;
+    margin-top: -5rem;
   }
 
   .card {

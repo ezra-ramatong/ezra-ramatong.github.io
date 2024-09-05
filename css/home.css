@@ -19,6 +19,11 @@ main {
   font-style: normal;
 }
 
+.home__about-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .home__about-description {
   font-size: 1rem;
   margin: 0;

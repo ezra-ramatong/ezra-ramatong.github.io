@@ -18,64 +18,67 @@
   <header>
     <nav class="nav">
       <ul class="nav__list">
-        <li class="nav__list-item"><a href="/">home</a></li>
-        <li class="nav__list-item"><a href="/pages/projects.html">projects</a></li>
-        <li class="nav__list-item"><a href="/pages/about.html">about</a></li>
-        <li class="nav__list-item"><a href="/pages/say-hi.html">say hi!</a></li>
+        <li class="nav__list-item"><a href="/">Home</a></li>
+        <li class="nav__list-item"><a href="/pages/projects.html">Projects</a></li>
+        <li class="nav__list-item"><a href="/pages/about.html">About</a></li>
+        <li class="nav__list-item"><a href="/pages/say-hi.html">Say hi!</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
+
     <div class="home flex-col-center">
       <div class="fixed">
         <section class="home__about flex-col-center">
-          <h1 class="home__about-title">EZRA.</h1>
+          <h1 class="home__about-title"><a href=" pages/about.html">EZRA.</a></h1>
           <p class="home__about-description">Full Stack Developer</p>
         </section>
       </div>
     </div>
+
     <div class="projects flex-col-center homepage-projects">
       <h2 class="projects-heading">Latest projects &amp; tinkerings</h2>
-      <div class="card">
-        <figure class="card__image-container">
-          <img class="card__image" src="assets/images/2.webp" alt="">
-        </figure>
+      <div class="card home-cards">
+        <figure class="card__image-container"><a href="/">
+            <img class="card__image" src="assets/images/this-website.png" alt="">
+          </a></figure>
         <section class="card__info">
-          <h2 class="card__info-title">Project Name</h2>
-          <p class="card__info-description">Lorem ipsum dolor sit amet.</p>
+          <h2 class="card__info-title"><a href="/">This web page</a></h2>
+          <p class="card__info-description">Look around, make yourself at home.</p>
         </section>
       </div>
 
-      <div class="card">
-        <figure class="card__image-container">
-          <img class="card__image" src="assets/images/2.webp" alt="">
-        </figure>
+      <div class="card home-cards">
+        <figure class="card__image-container"><a href="pages/projects.html#finzen">
+            <img class="card__image" src="assets/images/finzen.png" alt="">
+          </a></figure>
         <section class="card__info">
-          <h2 class="card__info-title">Project Name</h2>
-          <p class="card__info-description">Lorem ipsum dolor sit amet.</p>
+          <h2 class="card__info-title"><a href="pages/projects.html#finzen">Finzen Design Brief</a></h2>
+          <p class="card__info-description">Design brief for a tailored financial app. </p>
         </section>
       </div>
 
-      <div class="card">
-        <figure class="card__image-container">
-          <img class="card__image" src="assets/images/2.webp" alt="">
-        </figure>
+      <div class="card home-cards" id="retro">
+        <figure class="card__image-container"><a href="pages/projects#retro">
+            <img class="obj-fit-none card__image " src="assets/images/retro-calc.png" alt="">
+          </a></figure>
         <section class="card__info">
-          <h2 class="card__info-title">Project Name</h2>
-          <p class="card__info-description">Lorem ipsum dolor sit amet.</p>
+          <h2 class="card__info-title"><a href="pages/projects.html#retro">Retro Calculator Design</a></h2>
+          <p class="card__info-description">Who doesn't like a little retro? Pure CSS. </p>
         </section>
       </div>
 
-      <div class="card">
-        <figure class="card__image-container">
-          <img class="card__image" src="assets/images/2.webp" alt="">
-        </figure>
+      <div class="card home-cards" id="nvim">
+        <figure class="card__image-container"><a href="pages/projects.html#nvim">
+            <img class="card__image" src="assets/images/arch.png" alt="">
+          </a></figure>
         <section class="card__info">
-          <h2 class="card__info-title">Project Name</h2>
-          <p class="card__info-description">Lorem ipsum dolor sit amet.</p>
+          <h2 class="card__info-title"><a href="pages/projects.html#nvim">Neovim + Dotfiles</a></h2>
+          <p class="card__info-description">I use Arch, btw.</p>
         </section>
       </div>
+
     </div>
   </main>
 </body>

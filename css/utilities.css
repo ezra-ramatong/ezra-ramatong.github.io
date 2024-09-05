@@ -3,3 +3,14 @@
   flex-direction: column;
   align-items: center;
 }
+
+.obj-fit-none {
+  object-fit: none !important;
+}
+
+@media screen and (min-width: 53em) {
+  .width-40ch {
+    width: 40ch;
+
+  }
+}
