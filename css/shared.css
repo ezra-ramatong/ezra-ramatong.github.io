@@ -2,6 +2,7 @@ body {
   padding: var(--body-horizontal-padding-sm);
   margin: 0;
   font-family: "Inter", sans-serif;
+  height: 100vh;
 }
 
 header {

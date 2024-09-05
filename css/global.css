@@ -11,4 +11,7 @@
 @import url('projects.css');
 
 /* About page*/
-@import url('about.css')
+@import url('about.css');
+
+/* Say Hi page*/
+@import url('say-hi.css');
