@@ -8,6 +8,13 @@
   object-fit: none !important;
 }
 
+.underline {
+  text-decoration: underline wavy !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 8px;
+  /* text-decoration-style: wavy; */
+}
+
 @media screen and (min-width: 53em) {
   .width-40ch {
     width: 40ch;

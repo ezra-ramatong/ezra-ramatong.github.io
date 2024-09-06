@@ -16,7 +16,7 @@ input,
 textarea,
 select,
 button {
-  width: 350px;
+  width: auto;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -48,6 +48,15 @@ form {
   display: inline-block;
   margin-top: 1rem;
   text-align: center;
+}
+
+.greeting__tag a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.greeting__tag a:hover {
+  color: #0044cc;
 }
 
 .form-items__list {
