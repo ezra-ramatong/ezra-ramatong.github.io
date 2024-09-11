@@ -21,3 +21,11 @@
 
   }
 }
+
+.link-reset {
+  color: inherit;
+}
+
+.hidden {
+  display: none
+}
