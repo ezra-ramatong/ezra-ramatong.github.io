@@ -26,26 +26,27 @@
         <span class="greeting__tag"><a href="mailto:v24gu1d06@mozmail.com"> You can reach me here!</a></span>
       </section>
     </div>
-    <form action="maintenance">
+    <form action="./form-submission.html" method="post">
       <ul class="form-items__list">
         <li class="form-items__list-item">
           <label for="name">Full name</label>
-          <input type="text" id="name" name="user_name" placeholder="James Blake">
+          <input type="text" id="name" name="user_name" placeholder="James Blake" required>
         </li>
         <li class="form-items__list-item">
           <label for="mail">Email</label>
-          <input type="email" id="mail" name="user_email" placeholder="jamesblake@mail.com">
+          <input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" id="mail" name="user_email"
+            placeholder="jamesblake@mail.com" required>
         </li>
         <li class="form-items__list-item">
           <label for="msg-subject">Message subject</label>
-          <input type="text" id="msg-subject" name="user_message-subject" placeholder="Meet for coffee">
+          <input type="text" id="msg-subject" name="user_message-subject" placeholder="Meet for coffee" required>
         </li>
         <li class="form-items__list-item">
           <label for="msg">Message</label>
-          <textarea id="msg" name="user_message" placeholder="Write your lovely message here"></textarea>
+          <textarea id="msg" name="user_message" required placeholder="Write your lovely message here"></textarea>
         </li>
         <li class="form-items__list-item">
-          <button class="button-40" type="submit">🚧 Temporary Service Maintenance 🚧</button>
+          <button class="button-40" type="submit">Send message</button>
         </li>
       </ul>
     </form>

@@ -16,7 +16,7 @@ input,
 textarea,
 select,
 button {
-  width: auto;
+  width: clamp(300px, 500px, 20vw);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
